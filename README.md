@@ -1,7 +1,7 @@
 # Blog-Project-final
 
 
-#pre requis
+# pre requis
 
 php version : 8.0.18
 composer version : 2.3.3
@@ -18,11 +18,11 @@ php bin/console doctrine:database:create
 
 ---
 
-#commande pour creer les fichier sql
+# commande pour creer les fichier sql
 
 php bin/console make:migration
 
-#executer les fichiers sql
+# executer les fichiers sql
 
 php bin/console doctrine:migrations:migrate
 
