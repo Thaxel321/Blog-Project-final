@@ -30,7 +30,7 @@ php bin/console doctrine:migrations:migrate
 
 php bin/console doctrine:fixtures:load
 
-#lancer le serveur avec php
+# lancer le serveur avec php
 php bin/console server:run
 
 
