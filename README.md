@@ -11,7 +11,7 @@ composer version : 2.3.3
 
 composer install
 
-changer l'url pour la deb base dans .env (avec le nom futur de la db)
+changer l'url pour la db base dans .env (avec le nom futur de la db)
 
 # commande pour creer la base de donnee
 php bin/console doctrine:database:create
